@@ -11,6 +11,6 @@
             alert('Please enter a valid positive number for the radius.');
                 return;
             }
-        const volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
-        document.getElementById('volume').value = volume.tofixed(4);
+        const volume = ((4 / 3) * Math.PI * Math.pow(radius, 3)).toFixed(4);
+        document.getElementById('volume').value = volume;
 	} 
